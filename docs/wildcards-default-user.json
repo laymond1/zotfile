@@ -73,8 +73,8 @@
     "c": "collectionPaths",
     "1": "conferenceName",
     "2": {
-        "default": "conferenceName",
-        "journalArticleAbbr": "journalAbbreviation",
+        "default": "journalAbbreviation",
+        "conferencePaper": "conferenceName",
         "journalArticle": "publicationTitle"
     }
 
