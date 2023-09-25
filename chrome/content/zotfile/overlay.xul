@@ -40,7 +40,6 @@
 				<menuitem id="id-push2reader-13" hidden="true" label="menu13" tooltiptext="&send-attachment-file-to-tablet;" oncommand="Zotero.ZotFile.Tablet.sendSelectedAttachmentsToTablet(12);"/>
 				<menuitem id="id-push2reader-14" hidden="true" label="menu14" tooltiptext="&send-attachment-file-to-tablet;" oncommand="Zotero.ZotFile.Tablet.sendSelectedAttachmentsToTablet(13);"/>
 				<menuitem id="id-push2reader-15" hidden="true" label="menu15" tooltiptext="&send-attachment-file-to-tablet;" oncommand="Zotero.ZotFile.Tablet.sendSelectedAttachmentsToTablet(14);"/>
-
 				<menuseparator/>								
 				<menuitem id="id-push2reader-configure" label="&change-subfolders;" tooltiptext="&add-and-delete-subfolders;" oncommand="Zotero.ZotFile.openSubfolderWindow();"/>
 			</menupopup>
@@ -81,7 +80,8 @@
 	</menupopup>
 	
 	<menupopup id="menu_ToolsPopup">
-	<menuitem id="zotfile-options" insertafter="menu_preferences" label="&zotfile-options.label;" oncommand="Zotero.ZotFile.openPreferenceWindow();"/>
+    <menuitem id="zotfile-zotero7transition" insertafter="menu_preferences" label="ZotFile Transition to Zotero 7" oncommand="Zotero.ZotFile.zotero7transition();"/>
+	<menuitem id="zotfile-options" insertafter="zotfile-zotero7transition" label="&zotfile-options.label;" oncommand="Zotero.ZotFile.openPreferenceWindow();"/>
 	</menupopup>
 	
 	<!-- Include the main extension logic -->
